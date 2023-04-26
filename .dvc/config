@@ -1,0 +1,2 @@
+['remote "remote_s3"']
+    url = s3://vps/data
