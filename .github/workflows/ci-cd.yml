@@ -77,7 +77,7 @@ jobs:
           python-version: 3.11
 
       - name: Install DVC
-        run: pip install dvc dvc-s3
+        run: pip install dvc dvc-s3 dvc-webhdfs
 
       - name: Prepare DVC for remote storage
         run: dvc remote add --local remote_webhdfs ${{ secrets.WEBHDFS_REMOTE_URL }}
